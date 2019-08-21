@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react'
 import { timer } from 'rxjs'
 import { map, combineLatest } from 'rxjs/operators'
 import ObservableView from './rxjs-helpers/ObservableView'
@@ -52,4 +51,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default App
