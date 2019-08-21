@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flash {
+  animation: flashRed 2000ms ease-out;
+}
+
+@keyframes flashRed {
+  0% {
+    background-color: #f8bbd0;
+  }
+  99% {
+    background-color: #ffffff;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.basket {
+  display: flex;
+}
+
+.foodItem {
+  flex: 1;
+  margin: 20px;
+  padding: 40px;
+  text-align: center;
+}
